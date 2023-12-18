@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="./style.css" rel="stylesheet"
+  </head>
+  <body>
+    <section class="sectiune_titlu">
+      <div class="box_titlu">
+        <h1 class="titlu_principal">Bmw Survey Form</h1>
+      </div>
+      <div class="box_imagine">
+        <img src="./assets/bmw-wallpaper.jpg" class="imagine"/>
+      </div>
+    </section>
+    <form class="formular">
+      <div class="formular_optiuni">
+        <label class="nume" id="nume">NAME</label>
+        <input
+          type="text"
+          class="text_placeholder"
+          placeholder="Enter your full name"
+        />
+      </div>
+      <div class="formular_optiuni">
+        <label class="email" id="email">EMAIL</label>
+        <input
+          type="email"
+          class="text_placeholder"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="formular_optiuni">
+        <label class="age" id="age">AGE</label>
+        <input
+          type="age"
+          class="text_placeholder"
+          placeholder="Enter your age"
+        />
+      </div>
+      <div class="formular_optiuni">
+        <label class="ocupatie" id="ocupatie">What's your occupation</label>
+        <select class="dropdown">
+          <option value="">Student</option>
+          <option value="">Full Time Job</option>
+          <option value="">Part Time Job</option>
+          <option value="">Full Time Learner</option>
+          <option value="">Prefer not to say</option>
+          <option value="">Other</option>
+        </select>
+      </div>
+      <div class="formular_butoane">
+        <label class="condus" id="condus">
+          You have driven a bmw until now ?
+        </label>
+        <div class="box_butoane">
+          <div class="radio-butoane">
+            <input type="radio" class="radio-answer" name="driven" for="yes" />
+            <label for="yes">Yes</label>
+          </div>
+          <div class="radio-butoane">
+            <input type="radio" class="radio-answer" name="driven" for="no" />
+            <label for="no">No</label>
+          </div>
+        </div>
+      </div>
+      <div class="formular_optiuni">
+        <label class="bmw_model" id="bmw_model"
+          >If yes, then which model ?</label
+        >
+        <select class="dropdown">
+          <option value="">Series 1</option>
+          <option value="">Series 2</option>
+          <option value="">Series 3</option>
+          <option value="">Series 4</option>
+          <option value="">Series 5</option>
+          <option value="">Series 6</option>
+          <option value="">Series 7</option>
+          <option value="">Series 8</option>
+        </select>
+      </div>
+      <div class="formular_butoane">
+        <label class="condus" id="condus">
+          Did you like driving it?
+        </label>
+        <div class="box_butoane">
+          <div class="radio-butoane">
+            <input type="radio" class="radio-answer" name="driven" for="yes" />
+            <label for="yes">Yes</label>
+          </div>
+          <div class="radio-butoane">
+            <input type="radio" class="radio-answer" name="driven" for="no" />
+            <label for="no">No</label>
+          </div>
+        </div>
+      <div class="formular_optiuni">
+        <label class="changes" id="changes">You would like some changes ?</label>
+        <input
+          type="changes"
+          class="text_placeholder_opinion"
+          placeholder="Tell us your opinion"
+        />
+      </div>
+    </form>
+    <div class="formular_optiuni">
+        <button class="submit">Submit</button>
+    </div>
+  </body>
+</html>
